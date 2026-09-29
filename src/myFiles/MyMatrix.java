@@ -1,14 +1,14 @@
-package hw_first_five;
+package myFiles;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Matrix {
+public class MyMatrix {
     int[][] matrix;
     int col;
     int row;
 
-    public Matrix() {}
+    public MyMatrix() {}
 
     public int[][] matrixFill() {
         Scanner scanner = new Scanner(System.in);
@@ -64,24 +64,6 @@ public class Matrix {
 
         for (int i = 0; i < matrixesSum.length; i++) {
             System.out.println(Arrays.toString(matrixesSum[i]));
-        }
-    }
-    public int matrixGetSum() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите строку и столбец первой матрицы: ");
-        int r1 = scanner.nextInt();
-        int c1 = scanner.nextInt();
-        System.out.println("Введите строку и столбец второй матрицы: ");
-        int r2 = scanner.nextInt();
-        int c2 = scanner.nextInt();
-
-        if (index(r1, c1)&& index(r2, c2)) {
-            int first = getMatrix(r1, c1);
-            int second = getMatrix(r2, c2);
-            return first + second;
-        }else{
-            System.out.println("Такой ячейки нет");
-            return 0;
         }
     }
     public int getMatrixMultiply(){

@@ -1,12 +1,10 @@
-import hw_first_five.Matrix;
-
 public class Main {
     public static void main(String[] args) {
 //        hw_first_five.Person person1 = new hw_first_five.Person();
 //        hw_first_five.Person person = new hw_first_five.Person("anna", 19);
 //        System.out.println(person.move());
 //        System.out.println(person.talk());
-//    }
+//
 
 //        Chef chef = new Chef(5);
 //        Vegetable tomato = new Vegetable("Помидор", 200, 18);
@@ -46,7 +44,7 @@ public class Main {
 //        bouquet.sum();
 //        bouquet.sortByFreshness();
 //        bouquet.findFlowerByStemLength();
-//        }
+//
 
 //
 //        hw_first_five.Phone phone = new hw_first_five.Phone("0700111111", "Iphone", 150);
@@ -61,13 +59,12 @@ public class Main {
 //        System.out.println("send message to:");
 //        phone1.sendMessage(phone2.getNumber(), phone3.getNumber(), phone.getNumber());
 
-        Matrix matrix = new Matrix();
-        Matrix matrix1 = new Matrix();
-        matrix.matrixFill();
-        matrix1.matrixFill();
-        matrix.matrixSum(matrix1.getMatrixIn());
-    }}
-//        hw_first_five.Reader reader = new hw_first_five.Reader(
+//        Matrix matrix = new Matrix();
+//        Matrix matrix1 = new Matrix();
+//        matrix.matrixFill();
+//        matrix1.matrixFill();
+//        matrix.matrixSum(matrix1.getMatrixIn());
+  //        myFiles.Reader reader = new myFiles.Reader(
 //                "Иванов Иван Иванович",
 //                10245,
 //                "Факультет Информационных Технологий",
@@ -112,5 +109,5 @@ public class Main {
 //        playlist.sortByGenre();
 //        playlist.findMusicByTime();
 
-
+    }}
 

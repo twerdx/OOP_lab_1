@@ -77,8 +77,8 @@ public class Car {
     public String toString() {
         return "Автомобиль: " + brand + " (" + classification+ ")\n" +
                 "Вес: " + weight + " кг\n" +
-                "Водитель: " + driver + "\n" +
-                "Двигатель: " + engine;
+                "Водитель: " + driver.getFIO() + "\n" +
+                "Двигатель: " + engine.getManufacture();
     }
 
 }

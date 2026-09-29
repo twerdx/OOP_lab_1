@@ -8,15 +8,14 @@ public class Person {
         this.fullName = fullName;
         this.age = age;
     }
-    public  Person(){
-    }
+
+    public  Person(){}
 
     public String move(){
-        return (fullName + " "+"is moving" );
+        return (fullName + " "+"двигается" );
     }
+
     public String talk(){
-        return (fullName + " "+"is talking" );
+        return (fullName + " "+"говорит" );
     }
-
-
 }
